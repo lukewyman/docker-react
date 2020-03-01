@@ -4,12 +4,12 @@ import App from './App';
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Hi there/);
+  const linkElement = getByText(/I was changed on the Feature branch/);
   expect(linkElement).toBeInTheDocument();
 });
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Hi there/);
+  const linkElement = getByText(/I was changed on the Feature branch/);
   expect(linkElement).toBeInTheDocument();
 });
